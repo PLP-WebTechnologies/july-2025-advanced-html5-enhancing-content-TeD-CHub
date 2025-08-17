@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codevia Summit 2025 Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header, section, footer {
+      margin-bottom: 2rem;
+    }
+    header {
+      text-align: center;
+      background: #007acc;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      background: #fff;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background: #f2f2f2;
+    }
+    fieldset {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    legend {
+      font-weight: bold;
+      padding: 0 8px;
+    }
+    label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: auto;
+      background: #007acc;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Codevia Summit 2025</h1>
+    <p>Explore. Learn. Connect.</p>
+  </header>
+
+  <!-- Lists Section -->
+  <section>
+    <h2>Top Topics at the Summit</h2>
+    <ul>
+      <li>Artificial Intelligence & Machine Learning</li>
+      <li>Cybersecurity in a Digital World</li>
+      <li>Cloud Computing & DevOps</li>
+      <li>Web & Mobile App Development</li>
+      <li>Data Science and Analytics</li>
+    </ul>
+
+    <h3>How to Prepare for the Event</h3>
+    <ol>
+      <li>Register online through the form below</li>
+      <li>Book travel and accommodation</li>
+      <li>Review the event schedule</li>
+      <li>Bring your laptop and charger</li>
+      <li>Get ready to network!</li>
+    </ol>
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h2>Event Ticket Options</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket Type</th>
+          <th>Price</th>
+          <th>Benefits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Standard</td>
+          <td>$99</td>
+          <td>Access to all talks and panels</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>$199</td>
+          <td>Standard benefits + workshops + lunch</td>
+        </tr>
+        <tr>
+          <td>VIP</td>
+          <td>$299</td>
+          <td>Premium benefits + networking dinner + VIP seating</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Media Section -->
+  <section>
+    <h2>Event Highlights</h2>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" alt="Tech conference environment" width="600">
+      <figcaption>Highlights from last year’s Codevia Summit.</figcaption>
+    </figure>
+
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <video controls width="400">
+      <source src="https://www.youtube.com/embed/BOG_CbEDhag" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Register Now</h2>
+    <form action="#" method="post">
+      
+      <!-- Personal Info -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Ted Churchill" required minlength="3">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="ted@example.com" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+25470000000" 
+               pattern="^\+?[0-9\s\-]{7,15}$" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </fieldset>
+
+      <!-- Account Info -->
+      <fieldset>
+        <legend>Account Setup</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="5" autocomplete="username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8" autocomplete="new-password">
+
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm" required minlength="8" autocomplete="new-password">
+      </fieldset>
+
+      <!-- Preferences -->
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="ticket">Choose Your Ticket:</label>
+        <select id="ticket" name="ticket" required>
+          <option value="">--Select--</option>
+          <option value="standard">Standard - $99</option>
+          <option value="premium">Premium - $199</option>
+          <option value="vip">VIP - $299</option>
+        </select>
+
+        <label for="postal">Postal Code:</label>
+        <input type="text" id="postal" name="postal" placeholder="12345" 
+               pattern="^\d{5}(-\d{4})?$" required>
+
+        <label>
+          <input type="checkbox" name="newsletter" checked> Subscribe to newsletter
+        </label>
+
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </fieldset>
+
+      <!-- Comments -->
+      <fieldset>
+        <legend>Additional Comments</legend>
+        <label for="comments">Message to Organizers:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Any special requirements or requests?"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Codevia Summit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
